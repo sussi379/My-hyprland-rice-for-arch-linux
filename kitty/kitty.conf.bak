@@ -1,0 +1,60 @@
+# Font
+font_family      JetBrainsMono Nerd Font
+font_size        11
+
+# Padding
+window_padding_width 10
+window_padding_height 10
+
+# Background color
+background #1e1e2e
+
+# Foreground (text) color - recommend a light color for contrast
+foreground #cdd6f4
+
+# Optional: Catppuccin Mocha colors (matches #1e1e2e background)
+color0  #45475a
+color1  #f38ba8
+color2  #a6e3a1
+color3  #f9e2af
+color4  #89b4fa
+color5  #cba6f7
+color6  #94e2d5
+color7  #bac2de
+color8  #585b70
+color9  #f38ba8
+color10 #a6e3a1
+color11 #f9e2af
+color12 #89b4fa
+color13 #cba6f7
+color14 #94e2d5
+color15 #a6adc8
+
+# Cursor
+cursor_shape block
+cursor_blink_interval 0
+
+# Mouse
+mouse_hide_wait 2.0
+
+# Scrollback
+scrollback_lines 10000
+
+# Window size
+initial_window_width  800
+initial_window_height 600
+
+# Opacity (optional - for transparency)
+background_opacity 0.98
+
+# Shell
+shell /bin/bash
+
+# Disable bell
+enable_audio_bell no
+
+# Undercurl for better diagnostics
+undercurl_style thin-sparse
+
+# Editor for open links
+editor .

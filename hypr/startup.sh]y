@@ -1,0 +1,4 @@
+#!/bin/bash
+hyprpaper &
+sleep 2
+hyprctl hyprpaper wallpaper "eDP-1,~/Pictures/wallpaper.jpg"

@@ -1,0 +1,133 @@
+configuration {
+    modi: "drun,run,window";
+    show-icons: true;
+    icon-theme: "Papirus";
+    terminal: "alacritty";
+    drun-display-format: "{icon} {name}";
+}
+
+* {
+    font: "JetBrainsMono Nerd Font 12";
+}
+
+window {
+    background-color: #222d31;
+    width: 600px;
+    height: 400px;
+    border-radius: 12px;
+    location: center;
+    anchor: center;
+    x-offset: 0;
+    y-offset: 0;
+}
+
+inputbar {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 10px;
+    margin: 15px;
+    children: [ "prompt", "entry" ];
+}
+
+prompt {
+    text-color: #a6e3a1;
+    padding: 0 5px;
+}
+
+entry {
+    text-color: #ffffff;
+    placeholder-text: "Search applications...";
+    placeholder-color: rgba(255, 255, 255, 0.5);
+}
+
+listview {
+    dynamic: true;
+    scrollbar: true;
+    spacing: 5px;
+}
+
+element {
+    padding: 8px 12px;
+    border-radius: 6px;
+    margin: 2px 10px;
+}
+
+element normal {
+    background-color: transparent;
+}
+
+element normal text {
+    text-color: #ffffff;
+}
+
+element selected {
+    background-color: #a6e3a1;
+}
+
+element selected text {
+    text-color: #ffffff;
+    font-weight: bold;
+}
+
+element-icon {
+    size: 32px;
+    margin: 0 8px 0 0;
+}
+
+element-text {
+    text-color: inherit;
+    vertical-align: 0.5;
+}
+
+mainbox {
+    padding: 5px;
+}
+
+message {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    margin: 10px;
+    padding: 8px;
+}
+
+message text {
+    text-color: #ffffff;
+}
+
+inputbar {
+    background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin: 15px 15px 5px 15px;
+}
+
+scrollbar {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    width: 6px;
+    handle-width: 6px;
+    handle-color: #a6e3a1;
+    handle-border-radius: 6px;
+}
+
+mode-switcher {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 5px;
+    margin: 5px 15px 15px 15px;
+}
+
+button {
+    padding: 5px 10px;
+    border-radius: 6px;
+}
+
+button selected {
+    background-color: #a6e3a1;
+    text-color: #ffffff;
+}
+
+button normal {
+    background-color: transparent;
+    text-color: rgba(255, 255, 255, 0.7);
+}
